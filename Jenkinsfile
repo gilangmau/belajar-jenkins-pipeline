@@ -10,17 +10,11 @@ pipeline {
                 echo "Hello Build"
             }
         }
-    }
-
-    stages {
         stage("Test") {
             steps {
                 echo "Hello Test"
             }
         }
-    }
-
-    stages {
         stage("Deploy") {
             steps {
                 echo "Hello Deploy"
